@@ -3,11 +3,7 @@
   "main": "./lib/softcover",
   "version": "0.0.1",
   "description": "Snippets for softcover markdown",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "softcover:toggle"
-  },
+  "keywords": ["softcover", "markdown", "snippets"],
   "repository": "https://github.com/HashNuke/atom-softcover",
   "license": "MIT",
   "engines": {
