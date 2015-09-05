@@ -1,14 +1,17 @@
 {
   "name": "softcover",
   "main": "./lib/softcover",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Snippets for softcover markdown",
-  "keywords": ["softcover", "markdown", "snippets"],
+  "keywords": [
+    "softcover",
+    "markdown",
+    "snippets"
+  ],
   "repository": "https://github.com/HashNuke/atom-softcover",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
