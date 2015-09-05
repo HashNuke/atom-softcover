@@ -1,5 +1,29 @@
-# softcover package
+# Softcover package for Atom editor
 
-A short description of your package.
+Currently, this package provides only snippets.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## Install
+
+1. Open Atom preferences -> Install
+2. Search for `softcover` and install it
+
+## Snippets
+
+Type the keyword for the snippet and press the tab key to insert the snippet.
+
+#### Listings
+
+* Code listing: `cbox`
+* Aside listing: `abox`
+
+#### Labels
+
+* Chapter label: `chaplabel`
+* Section label: `seclabel`
+
+#### References
+
+* Chapter reference: `chapref`
+* Section reference: `secref`
+* Code reference: `coderef`
+* Aside reference: `asideref`
