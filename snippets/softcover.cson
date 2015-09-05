@@ -1,0 +1,50 @@
+'.source.gfm':
+  'codelisting':
+    'prefix': 'cbox'
+    'body': """
+      \\\\begin{codelisting}
+      \\\\codecaption{$1}
+      \\\\label{code:$2}
+      ```
+      $3
+      ```
+      \\\\end{codelisting}
+    """
+
+  'aside':
+    'prefix': 'abox'
+    'body': """
+      \\\\begin{aside}
+      \\\\heading{$1}
+      \\\\label{aside:$2}
+      $3
+      \\\\end{aside}
+    """
+
+  # refs
+
+  'chapter reference':
+    'prefix': 'chapref'
+    'body': "Chapter~\\\\ref{cha:$1}"
+
+  'section reference':
+    'prefix': 'secref'
+    'body': "Section~\\\\ref{sec:$1}"
+
+  'code reference':
+    'prefix': 'coderef'
+    'body': "Listing~\\\\ref{code:$1}"
+
+  'aside reference':
+    'prefix': 'asideref'
+    'body': "Listing~\\\\ref{aside:$1}"
+
+  # labels
+
+  'chapter label':
+    'prefix': 'chalabel'
+    'body': "\\\\label{cha:$1}"
+
+  'section label':
+    'prefix': 'seclabel'
+    'body': "\\\\label{sec:$1}"
