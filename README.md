@@ -27,3 +27,4 @@ Type the keyword for the snippet and press the tab key to insert the snippet.
 * Section reference: `secref`
 * Code reference: `coderef`
 * Aside reference: `asideref`
+* Figure reference: `figref`

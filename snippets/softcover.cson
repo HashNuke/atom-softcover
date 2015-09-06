@@ -21,8 +21,6 @@
       \\\\end{aside}
     """
 
-  # refs
-
   'chapter reference':
     'prefix': 'chapref'
     'body': "Chapter~\\\\ref{cha:$1}"
@@ -39,7 +37,9 @@
     'prefix': 'asideref'
     'body': "Listing~\\\\ref{aside:$1}"
 
-  # labels
+  'fig reference':
+    'prefix': 'figref'
+    'body': "Figure~\\\\ref{fig:$1}"
 
   'chapter label':
     'prefix': 'chalabel'
